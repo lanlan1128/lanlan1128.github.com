@@ -10,9 +10,7 @@ body {
   margin: 2rem
 }
 
-.info {
- overflow: hidden;
-}
+
 .info .col {
   float: left;
 }
@@ -20,6 +18,9 @@ body {
 @media screen and (min-width:1200px) {
   .info .col1, .info .col2 {
     width: 50%;
+  }
+  .info {
+   overflow: hidden;
   }
 }
 @media screen and (min-width:800px) and (max-width: 1200px) {
@@ -29,11 +30,19 @@ body {
   .info .col2 {
     width: 30%;
   }
+  .info {
+   overflow: hidden;
+  }
 }
 @media screen and (max-width:800px) {
   .info .col1, .info .col2 {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .info:after {
+    content: '';
+    display: table;
+    clear: both;
   }
 }
 
