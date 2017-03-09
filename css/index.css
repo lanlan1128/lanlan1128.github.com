@@ -217,6 +217,9 @@ div#resume img {
   body {
     margin: .5rem 0 0;
   }
+   .info {
+   overflow: hidden;
+  }
    .info .col1 {
     width: 70%;
   }
