@@ -1,0 +1,24 @@
+.p6_text1, .p6_text2, .p6_thxPic {
+  background-image: url('../image/p6/g1-s3d1d2eecfa.png');
+}
+
+.p6_text1 {
+  width: 4.43rem;
+  height: 0.7rem;
+  background-position: 0 0;
+  background-size: 5.44rem 5.27rem;
+}
+
+.p6_text2 {
+  width: 4.03rem;
+  height: 1.1rem;
+  background-position: 0 -0.7rem;
+  background-size: 5.44rem 5.27rem;
+}
+
+.p6_thxPic {
+  width: 5.44rem;
+  height: 3.47rem;
+  background-position: 0 -1.8rem;
+  background-size: 5.44rem 5.27rem;
+}

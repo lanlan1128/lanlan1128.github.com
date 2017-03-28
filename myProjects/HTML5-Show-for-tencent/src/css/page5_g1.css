@@ -1,0 +1,45 @@
+.p5_top_shape, .p5_top_text, .p5_icon1, .p5_icon2, .p5_icon3, .p5_icon4 {
+  background-image: url('../image/p5/g1-sea4c61eedf.png');
+}
+
+.p5_top_shape {
+  width: 3.14rem;
+  height: 1.38rem;
+  background-position: 0 -2.63rem;
+  background-size: 3.28rem 4.01rem;
+}
+
+.p5_top_text {
+  width: 3.28rem;
+  height: 0.84rem;
+  background-position: 0 -0.69rem;
+  background-size: 3.28rem 4.01rem;
+}
+
+.p5_icon1 {
+  width: 2.08rem;
+  height: 1.1rem;
+  background-position: -1.06rem -1.53rem;
+  background-size: 3.28rem 4.01rem;
+}
+
+.p5_icon2 {
+  width: 1.06rem;
+  height: 1.09rem;
+  background-position: 0 -1.53rem;
+  background-size: 3.28rem 4.01rem;
+}
+
+.p5_icon3 {
+  width: 1.64rem;
+  height: 0.69rem;
+  background-position: -0.88rem 0;
+  background-size: 3.28rem 4.01rem;
+}
+
+.p5_icon4 {
+  width: 0.88rem;
+  height: 0.64rem;
+  background-position: 0 0;
+  background-size: 3.28rem 4.01rem;
+}

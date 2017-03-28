@@ -1,0 +1,31 @@
+.p4_top_microphone, .close_btn, .more_btn, .p4_top_qie {
+  background-image: url('../image/p4/g1-s11616b4086.png');
+}
+
+.p4_top_microphone {
+  width: 0.89rem;
+  height: 1.14rem;
+  background-position: 0 -1.49rem;
+  background-size: 1.71rem 4.39rem;
+}
+
+.more_btn {
+  width: 1.71rem;
+  height: 0.55rem;
+  background-position: 0 0;
+  background-size: 1.71rem 4.39rem;
+}
+
+.close_btn {
+  width: 0.94rem;
+  height: 0.94rem;
+  background-position: 0 -0.55rem;
+  background-size: 1.71rem 4.39rem;
+}
+
+.p4_top_qie {
+  width: 1.44rem;
+  height: 1.76rem;
+  background-position: 0 -2.63rem;
+  background-size: 1.71rem 4.39rem;
+}

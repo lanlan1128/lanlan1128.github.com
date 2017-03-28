@@ -1,0 +1,31 @@
+.p1_qie1, .p1_qie2, .p1_qie3, .p1_qie2S {
+  background-image: url('../image/p1/g3-s8451fe7af9.png');
+}
+
+.p1_qie1 {
+  width: 1.5rem;
+  height: 1.76rem;
+  background-position: 0 0;
+  background-size: 8.58rem 2.69rem;
+}
+
+.p1_qie2 {
+  width: 2.27rem;
+  height: 2.69rem;
+  background-position: -1.58rem 0;
+  background-size: 8.58rem 2.69rem;
+}
+
+.p1_qie2S {
+  width: 2.45rem;
+  height: 2.28rem;
+  background-position: -3.93rem 0;
+  background-size: 8.58rem 2.69rem;
+}
+
+.p1_qie3 {
+  width: 2.04rem;
+  height: 1.96rem;
+  background-position: -6.46rem 0;
+  background-size: 8.58rem 2.69rem;
+}

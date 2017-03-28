@@ -1,0 +1,20 @@
+.cloud1 {
+	background: url(../image/screen1/cloud1.png) left bottom no-repeat;
+	background-size: 6.68rem auto;
+	width: 100%;
+	position: absolute;
+	height: 1.34rem;
+	bottom: 0.37rem;
+	left: 0;
+	z-index: 30;
+}
+.cloud2 {
+	background: url(../image/screen1/cloud2.png) center bottom no-repeat;
+	background-size: 6.83rem auto;
+	position: absolute;
+	height: 2.84rem;
+	width: 100%;
+	bottom: -1.05rem;
+	left: 0;
+	z-index: 40;
+}

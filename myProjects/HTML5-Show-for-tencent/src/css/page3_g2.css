@@ -1,0 +1,24 @@
+.p3_qie1, .p3_qie2, .p3_stamp {
+  background-image: url('../image/p3/g2-sbc95832dfa.png');
+}
+
+.p3_qie1 {
+  width: 1.53rem;
+  height: 1.81rem;
+  background-position: 0 -1.79rem;
+  background-size: 2.3rem 5.89rem;
+}
+
+.p3_qi2 {
+  width: 1.63rem;
+  height: 1.79rem;
+  background-position: 0 0;
+  background-size: 2.3rem 5.89rem;
+}
+
+.p3_stamp {
+  width: 2.3rem;
+  height: 2.29rem;
+  background-position: 0 -3.6rem;
+  background-size: 2.3rem 5.89rem;
+}

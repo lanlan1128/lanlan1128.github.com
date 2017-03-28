@@ -1,0 +1,19 @@
+.p1_top1, .p1_top2 {
+  background-image: url('../image/p1/g2-s93f7a15d3a.png');
+}
+
+.p1_top1 {
+  width: 5.67rem;
+  height: 1.89rem;
+  background-position: 0 0;
+  background-size: 5.67rem 5.45rem;
+  left: 0.365rem;
+}
+
+.p1_top2 {
+  width: 3.01rem;
+  height: 3.48rem;
+  background-position: 0 -1.97rem;
+  background-size: 5.67rem 5.45rem;
+  left: 1.695rem;
+}

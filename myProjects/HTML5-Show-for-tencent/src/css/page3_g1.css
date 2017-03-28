@@ -1,0 +1,90 @@
+.p3_star1, .p3_star2, .p3_starNum, .p3_step_dot,
+.p3_step_icon1, .p3_step_icon2, .p3_step_icon3,
+.p3_step_text1, .p3_step_text2, .p3_step_text3,
+.p3_toCount, .p3_userName {
+  background-image: url('../image/p3/g1-se530512306.png');
+}
+
+.p3_star1 {
+  width: 0.3rem;
+  height: 0.29rem;
+  background-position: -3.14rem -1.62rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_star2 {
+  width: 0.3rem;
+  height: 0.29rem;
+  background-position: -2.84rem -1.62rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_starNum {
+  width: 0.47rem;
+  height: 0.44rem;
+  background-position: -3.09rem 0;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_dot {
+  width: 0.18rem;
+  height: 0.18rem;
+  background-position: -4.31rem -1.31rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_icon1 {
+  width: 0.4rem;
+  height: 1.31rem;
+  background-position: -4.02rem 0;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_icon2 {
+  width: 0.85rem;
+  height: 0.8rem;
+  background-position: -3.44rem -1.62rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_icon3 {
+  width: 0.46rem;
+  height: 1.01rem;
+  background-position: -3.56rem 0;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_text1 {
+  width: 4.31rem;
+  height: 0.31rem;
+  background-position: 0 -1.31rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_text2 {
+  width: 2.51rem;
+  height: 0.34rem;
+  background-position: 0 -2.42rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_step_text3 {
+  width: 3.09rem;
+  height: 0.31rem;
+  background-position: 0 0;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_toCount {
+  width: 4.64rem;
+  height: 0.84rem;
+  background-position: 0 -2.76rem;
+  background-size: 4.64rem 3.6rem;
+}
+
+.p3_userName {
+  width: 2.84rem;
+  height: 0.34rem;
+  background-position: 0 -1.62rem;
+  background-size: 4.64rem 3.6rem;
+}

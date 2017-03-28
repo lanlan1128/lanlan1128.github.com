@@ -1,0 +1,22 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	max-width: 6.4rem;
+	margin: 0 auto;
+}
+
+#screens {
+	width: 600%;
+	height: 100%;
+	position: relative;
+}
+
+.screen {
+	position: absolute;
+	width: 16.6666667%;
+	height: 100%;
+	top: 0;
+}
+

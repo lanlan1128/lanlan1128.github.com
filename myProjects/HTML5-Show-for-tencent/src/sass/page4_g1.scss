@@ -1,0 +1,54 @@
+$p4_g1: sprite-map("p4/g1/*.png", $spacing: 8px, $layout: smart);
+
+$bigWidth: 171px;
+$bigHeight: 439px;
+
+@function px2rem ($px) {
+	@if (type-of($px) == "number") {
+		@return $px / 100px * 1rem;
+	}
+
+	@if (type-of($px) == "list") {
+  		@if (nth($px, 1) == 0 and nth($px, 2) != 0) {
+    		@return 0 nth($px, 2) / 100px * 1rem;
+  		} @else if (nth($px, 1) == 0 and nth($px, 2) == 0)  {
+    		@return 0 0;
+  		} @else if (nth($px, 1) != 0 and nth($px, 2) == 0) {
+    		@return nth($px, 1) / 100px * 1rem 0;
+  		} @else {
+    		@return nth($px, 1) / 100px *1rem nth($px, 2) / 100px * 1rem;
+  		}
+	}
+}
+@function toLeft ($width) {
+	@return (6.40rem - $width ) / 2;
+}
+
+@mixin sprite-info1 ($icons) {
+	background-image: sprite-url($icons);
+}
+@mixin sprite-info2 ($icons, $name) {
+	width: px2rem(image-width(sprite-file($icons, $name)));
+	height: px2rem(image-height(sprite-file($icons, $name)));
+	background-position: px2rem(sprite-position($icons, $name));
+	background-size: px2rem(($bigWidth, $bigHeight));
+}
+@mixin cLeft ($icons, $name) {
+	left: toLeft(px2rem(image-width(sprite-file($icons, $name))));
+}
+
+.p4_top_microphone, .close_btn, .more_btn, .p4_top_qie{
+	@include sprite-info1($p4_g1);
+}
+.p4_top_microphone {
+	@include sprite-info2($p4_g1, p4_top_microphone);
+}
+.more_btn {
+	@include sprite-info2($p4_g1, more_btn);
+}
+.close_btn {
+	@include sprite-info2($p4_g1, close_btn);
+}
+.p4_top_qie {
+	@include sprite-info2($p4_g1, p4_top_qie);
+}

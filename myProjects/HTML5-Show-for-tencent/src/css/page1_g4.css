@@ -1,0 +1,19 @@
+.p1_cloud1, .p1_cloud2 {
+  background-image: url('../image/p1/g4-s8924acd8ea.png');
+}
+
+.p1_cloud1 {
+  width: 6.6rem;
+  height: 1.34rem;
+  background-position: 0 0;
+  background-size: 6.83rem 4.26rem;
+  left: -0.1rem;
+}
+
+.p1_cloud2 {
+  width: 6.83rem;
+  height: 2.84rem;
+  background-position: 0 -1.42rem;
+  background-size: 6.83rem 4.26rem;
+  left: -0.215rem;
+}

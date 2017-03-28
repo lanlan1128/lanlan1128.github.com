@@ -1,0 +1,33 @@
+.p2_sight3_1, .p2_sight3_2, .p2_sight3_3, .p2_sight3_4 {
+  background-image: url('../image/p2/g3-s788d9b496d.png');
+}
+
+.p2_sight3_1 {
+  width: 1.07rem;
+  height: 1.56rem;
+  background-position: -1.05rem -0.75rem;
+  background-size: 2.87rem 2.31rem;
+}
+
+.p2_sight3_2 {
+  width: 1.05rem;
+  height: 1.46rem;
+  background-position: 0 -0.75rem;
+  background-size: 2.87rem 2.31rem;
+}
+
+.p2_sight3_3 {
+  width: 2.68rem;
+  height: 0.49rem;
+  background-position: 0 -0.26rem;
+  background-size: 2.87rem 2.31rem;
+  left: 1.86rem;
+}
+
+.p2_sight3_4 {
+  width: 2.87rem;
+  height: 0.26rem;
+  background-position: 0 0;
+  background-size: 2.87rem 2.31rem;
+  left: 1.765rem;
+}
